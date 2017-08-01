@@ -5,7 +5,7 @@ version: 0.0
 os: linux
 # Copy all files to /var/myApp
 files:
-  - source: /html
+  - source: /
     destination: /var/www/html
 hooks:
 ## After files have been copied, run the startApp.sh script
